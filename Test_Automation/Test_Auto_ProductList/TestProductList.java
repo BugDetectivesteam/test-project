@@ -13,7 +13,7 @@ import java.util.List;
 public class TestProductList {
 
     public static void main(String[] args) {
-
+        // هنا اختار أنهي test case تشغّلها
 //         TC001_VerifyProductListLoads();
 //         TC002_VerifyAllProductsHaveNameAndPrice();
 //          TC003_VerifySortingZtoA();
@@ -266,8 +266,8 @@ public class TestProductList {
     }
 
     // ==============================
-    // Test Case 9
     // ==============================
+    // Test Case 9
     public static void TC009_VerifyProductDetailsNavigation() {
 
         System.setProperty("webdriver.chrome.driver", "E:\\chromeDriver\\chromedriver-win64\\chromedriver.exe");
