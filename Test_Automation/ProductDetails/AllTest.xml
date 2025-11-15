@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name="TestListener"/>
+    </listeners>
+
+    <test name="ProductsTest">
+        <classes>
+
+            <class name="TestCase"/>
+            <class name="TestCase2"/>
+            <class name="TestCase3"/>
+            <class name="TestCase4"/>
+            <class name="TestCase5"/>
+            <class name="TestCase6"/>
+        </classes>
+    </test>
+
+</suite>
